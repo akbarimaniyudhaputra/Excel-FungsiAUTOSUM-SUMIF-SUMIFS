@@ -8,7 +8,7 @@
 #### Cara Memanfaatkan/Menggunakan Fungsi AUTO SUM
 - Kita akan menjumlahkan kolom/field “Total”, pertama dengan cara mem-blok seluruh data yang akan dijumlahkan, ingat untuk mempercepat menge-blok dengan cara Ctrl + Shift + arah panah (dalam hal ini menggunakan arah panah ke bawah saja) > kemudian klik home > kemudian klik AUTO SUM. Untuk mempermudah lihat gambar di bawah ini.
 ###
-
+![ss1](https://user-images.githubusercontent.com/86678205/156878144-5548914e-d038-4b32-bc68-593034fcb122.PNG)
 
 ## B. Fungsi SUM-IF
  - Digunakan untuk menggali informasi yang ada di data
