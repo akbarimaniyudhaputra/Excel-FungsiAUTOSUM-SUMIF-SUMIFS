@@ -17,6 +17,7 @@
 Dengan cara sebagai berikut :
 - 1.) Membuat tabel baru yang berisi dua kolom/field baru yaitu kolom Market & kolom penjualan pertahun. Kolom Market ada 3 data sesuai isi data yaitu Jatim, Jabodetabek, Jateng. Seperti Gambar di bawah.
 ###
+![ss1sumif](https://user-images.githubusercontent.com/86678205/156879857-cec7277a-0031-421c-9f6a-9eb75eab4e00.PNG)
 
 - 2.) Kemudian kita gunakan rumus/fungsi SUM-IF untuk mencari penjualan pertahun
 Struktur fungsi/rumus SUM-IF pada excel yaitu :
@@ -35,7 +36,12 @@ Karena acuannya adalah lokasi maka:
 ```http
   Parameter [sum_range] diisi semua baris yang ada di cell total (semua data di kolom total) (l4:l23)
 ```
+###
+![ss2sumif](https://user-images.githubusercontent.com/86678205/156879889-fb95f7fe-c2cd-440d-9dd4-479ef8eab1f1.PNG)
+
 Perlu sangat penting diingat bahwa agar dapat ditarik kebawah menghasilkan nilai yang sesuai atau diingkan dengan formula/fungsi/rumus yang sama maka harus diberi nilai absolut dengan cara lakukan blok di stuktur rumus/fungsi pada (l4:l23) & (C4:C23) > kemudian tekan f4 untuk memberi tanda $ pada (l4:l23) & (C4:C23) agar tidak berubah-ubah saat ditarik kebawah, sehingga yang berubah-ubah hanya parameter Criteria (marketnya saja).
+###
+![ss3sumif](https://user-images.githubusercontent.com/86678205/156879941-b5780b66-e34f-4b0c-865c-fae28f705515.PNG)
 
 ## C. Fungsi SUM-IFS
 - Digunakan untuk menggali informasi yang ada di data yang persoalannya/kasusnya membutuhkan lebih dari satu acuan
