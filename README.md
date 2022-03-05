@@ -50,6 +50,7 @@ Perlu sangat penting diingat bahwa agar dapat ditarik kebawah menghasilkan nilai
 Dengan cara sebagai berikut :
 - 1.) Membuat table baru yang berisi tiga kolom/field baru yaitu kolom Bulan, kolom Market & kolom jumlah. Seperti Gambar di bawah.
 ###
+![ss1sumifs](https://user-images.githubusercontent.com/86678205/156881705-a1917d54-2c49-4fb4-9343-e639263fc858.PNG)
 
 - 2.) Berbeda dengan kasus sebelumnya tadi (SUM-IF) yang acuannya hanya lokasi, di kasus ini terdapat dua acuan yaitu bulan & lokasi. Maka dari itu kita menggunakan rumus/fungsi SUM-IFS
 Struktur fungsi/rumus SUM-IFS pada excel yaitu :
@@ -74,6 +75,14 @@ selanjutnya kriteria kedua yaitu market maka:
 ```http
   Parameter criteria2 diisi market/lokasi Jabodetabek pada tabel yang baru (l10) untuk memfilter lokasi Jabodetabek saja
 ```
+###
+![ss2sumifs](https://user-images.githubusercontent.com/86678205/156881731-26b8290e-f9d1-4735-8be1-72e1b8470005.PNG)
+
 Perlu sangat penting diingat bahwa agar dapat ditarik kebawah menghasilkan nilai yang sesuai atau diingkan dengan formula/fungsi/rumus yang sama maka harus diberi nilai absolut dengan cara lakukan blok di stuktur rumus/fungsi pada (l4:l23), (b4:b23), & (c4:c23) > kemudian tekan f4 untuk memberi tanda $ pada (l4:l23), (b4:b23), & (c4:c23) agar tidak berubah-ubah saat di tarik kebawah, sehingga yang berubah-ubah hanya parameter marketnya (lokasi) saja.
+###
+![ss3sumifs](https://user-images.githubusercontent.com/86678205/156881741-8ee84460-0226-43bf-9e28-b61312049e04.PNG)
+![ss3sumifs+](https://user-images.githubusercontent.com/86678205/156881747-377a8a41-66d8-4e76-988e-119fa43f2b94.PNG)
 
 Selanjutnya mencari dengan cara yang sama pada lokasi Jatim & Jateng. Untuk mempercepat silahkan copy-paste dua kali tabel market Jabodetabek, kemudian ganti nama market menjadi Jatim dan satunya Jateng, selanjutnya tarik ke bawah kolom jumlah maka akan berubah secara otomatis karena sudah dikasih/diberi nilai absolut.
+###
+![ss4sumifs](https://user-images.githubusercontent.com/86678205/156881752-e8fe3a5b-f604-4f00-b4d8-47724b05c1d6.PNG)
