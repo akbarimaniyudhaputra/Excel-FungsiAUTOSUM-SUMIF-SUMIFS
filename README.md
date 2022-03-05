@@ -81,6 +81,7 @@ selanjutnya kriteria kedua yaitu market maka:
 Perlu sangat penting diingat bahwa agar dapat ditarik kebawah menghasilkan nilai yang sesuai atau diingkan dengan formula/fungsi/rumus yang sama maka harus diberi nilai absolut dengan cara lakukan blok di stuktur rumus/fungsi pada (l4:l23), (b4:b23), & (c4:c23) > kemudian tekan f4 untuk memberi tanda $ pada (l4:l23), (b4:b23), & (c4:c23) agar tidak berubah-ubah saat di tarik kebawah, sehingga yang berubah-ubah hanya parameter marketnya (lokasi) saja.
 ###
 ![ss3sumifs](https://user-images.githubusercontent.com/86678205/156881741-8ee84460-0226-43bf-9e28-b61312049e04.PNG)
+###
 ![ss3sumifs+](https://user-images.githubusercontent.com/86678205/156881747-377a8a41-66d8-4e76-988e-119fa43f2b94.PNG)
 
 Selanjutnya mencari dengan cara yang sama pada lokasi Jatim & Jateng. Untuk mempercepat silahkan copy-paste dua kali tabel market Jabodetabek, kemudian ganti nama market menjadi Jatim dan satunya Jateng, selanjutnya tarik ke bawah kolom jumlah maka akan berubah secara otomatis karena sudah dikasih/diberi nilai absolut.
